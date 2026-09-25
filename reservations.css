@@ -1,0 +1,27 @@
+/*Table Style*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th,td{
+    border: 3px solid darkblue;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+} 
+th{
+    background-color: lightslategray;
+} 
+.color{
+    background-color: lightsalmon;
+}
+.shade{
+    background-color: rgb(80, 23, 23);
+    color: aliceblue;
+}
+.pop{
+    background-color: lightgreen;
+}
