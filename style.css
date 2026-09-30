@@ -90,7 +90,10 @@ img{
 }
 .stack{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+}
+.margin{
+    margin-top: 30px;
 }
 .price-selection{
     display: flex;
