@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+   <h1>Forms</h1> 
+
+   <form action="" method=""><!--these attributes allow us to handle data to the server-->
+       <label for="fname">First Name</label>
+       <input type="text" id="fname">
+
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname">
+
+       <input type="submit" value="Submit">
+   </form>
+
+   <p>Select the options that applies to you:</p>
+
+   <form>
+    <input type="checkbox" id="vehicle1" name="vehicle1">
+    <label>I have a bike</label>
+
+    <input type="checkbox" id="vehicle2" name="vehicle2">
+    <label>I have a car</label>
+
+    <input type="checkbox" id="vehicle3" name="vehicle34">
+    <label>I have a boat</label>
+
+    <input type="submit" value="Submit">
+   </form>
+
+   <p>Elements inside of a form</p>
+   <form>
+       <fieldset>
+        <legend>Contact Information</legend>
+        <label>First Name</label>
+        <input type="text" id="fname">
+       </fieldset>
+
+       <fieldset>
+        <legend>Vehicles</legend>
+        <label for="cars">Choose a car</label>
+        <select id="cars">
+             <option value="bmw">BMW</option>
+             <option value="toyota">Toyota</option>
+             <option value="ford">Ford</option>
+        </select>     
+       </fieldset>
+       <fieldset>
+        <legend>Body:</legend>
+        <label>Leave a Message:</label>
+        <textarea id="message" rows="10" cols="80" placeholder="typehere..."></textarea>
+       </fieldset>
+
+       <fieldset>
+        <legend>Input Types:</legend>
+        <label>Password</label>
+        <input type="password" id="password" maxlength="8">
+        <br>
+
+        <label>Color</label>
+        <input type="color" id="color">
+        <br>
+       
+        <label>Date</label>
+        <input type="text" id="date">
+        <br>
+
+        <label>Email</label>
+        <input type="text" id="email">
+        <br>
+
+        <label>File</label>
+        <input type="file" id="file">
+        <br>
+
+        <label>Age</label>
+        <input type="text" id="Age">
+        <br>
+       </fieldset>
+       
+       <input type="submit" value="Submit">
+   </form>
+
+
+</body>
+</html>

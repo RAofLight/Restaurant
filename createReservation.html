@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+    <title>Create a Reservation</title>
+</head>
+<body>
+    <header class="site-init">
+        <h1 class="heading">Ase</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="createReservations.html">Create a Reservation</a>
+        </nav>
+    </header>
+    <main>
+        <div class="reservation-wrapper">
+            <div class="reservation-header">
+                <h1>Reserve your table</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deserunt soluta sed dignissimos aut cumque non dolor consequuntur. Aut quo adipisci expedita labore ducimus repellendus blanditiis illum atque iure. Porro?</p>
+            </div>
+            <form class="reservation-form">
+                <!--Date, Time, Guest Name, Party Size, Status-->
+                <div class="input-group">
+                    <label>Date</label>
+                    <input type="date">
+                </div>
+
+                <div class="input-group">
+                    <label>Time</label>
+                    <input type="time">
+                </div>
+
+                <div class="input-group">
+                    <label>Guest Name</label>
+                    <input type="name">
+                </div>
+
+                <div class="input-group">
+                    <label>Party Size</label>
+                    <input type="number">
+                </div>
+
+                <div class="input-group">
+                    <label>Status</label>
+                    <select name="status" id="status">
+                        <option value="" disabled>---Select one status---</option>
+                       <option value="confirm">Confirm</option>
+                       <option value="pending">Pending</option>
+                       <option value="cancel">Cancel</option>
+                    </select>
+                </div>
+            </form>
+
+
+
+        </div>
+    </main>
+</body>
+</html>
