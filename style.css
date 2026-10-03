@@ -27,7 +27,7 @@ img{
 .container{
     width: 100%;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 /*header*/
@@ -102,4 +102,40 @@ img{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 30px;
+}
+@media(max-width:768px){
+.dishes-container{
+     display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.stack{
+    display: flex;
+    display: column;
+    justify-content: center;
+}
+.site-init{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dish-month-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigation a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 }
